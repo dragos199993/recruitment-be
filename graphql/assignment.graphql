@@ -1,0 +1,11 @@
+enum Technology {
+    REACT @enum(value: "react")
+    LARAVEL @enum(value: "laravel")
+    ANGULAR @enum(value: "angular")
+    VUE @enum(value: "vue")
+}
+
+type Assignment {
+    name: String
+    technology: Technology
+}
